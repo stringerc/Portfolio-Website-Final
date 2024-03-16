@@ -251,9 +251,10 @@ color: var(--hover-color);
     color: var(--bg-color);
 }
 
-.btn:nth-child(2)::before {
+a.btn:nth-child(2)::before {
     background: var(--hover-color);
 }
+
 
 .social-icons {
     margin-top: 8rem;
@@ -374,6 +375,10 @@ color: var(--hover-color);
     margin-bottom: .2rem;
 }
 
+.about-content p {
+    margin-bottom: 20px;
+}
+
 .about-content {
     color: #fdfdfd;
     font-weight: 300;
@@ -425,9 +430,11 @@ color: var(--hover-color);
     margin-bottom: var(--hover-color);
 }
 
+
 .main-text h2 {
     font-weight: 700;
     font-size: var(--norma-font);
+    margin-bottom: 60px;
 }
 
 .main-text span {
