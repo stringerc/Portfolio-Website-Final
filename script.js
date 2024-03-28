@@ -51,7 +51,7 @@ circles.forEach(elem=>{
 
 
   for(let i = 0 ; i < dots ; i++) {
-    points += '<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>';
+    points += `<div class="points" style="--i:${i}; --rot:${rotate}deg"></div>`;
   }
   elem.innerHTML = points;
 
@@ -67,6 +67,7 @@ circles.forEach(elem=>{
 // mix it up portfolio section
 var mixer = mixitup('.portfolio-gallery')
 
+var mixer = mixitup('.section-services')
 
 
 /// active menu ///////////////////////////////////////
@@ -125,3 +126,5 @@ scrollBottom.forEach((el)=>observer.observe(el));
 
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el)=>observer.observe(el));
+
+
